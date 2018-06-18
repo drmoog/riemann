@@ -596,7 +596,7 @@ class DecredInputWitness(DecredByteData):
 
     @classmethod
     def from_bytes(DecredInputWitness, byte_string):
-        raise NotImplementedError('Not Implemented')
+        raise NotImplementedError('Not Implemented')  # TODO
 
 
 class Tx(ByteData):
